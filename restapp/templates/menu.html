@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Menu - Foodora Palace</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+    <nav>
+        <h2>Foodora Palace</h2>
+
+        <a href="/">Home</a>
+        <a href="/menu/">Menu</a>
+        <a href="/administration/">Administration</a>
+        <a href="/contact/">Contact</a>
+    </nav>
+
+    <h1 class="title">Our Special Menu</h1>
+
+    <div class="menu-container">
+
+        <div class="card">
+
+            <img src="{% static 'images/pizza.jpg' %}" width="200" height="150">
+
+            <h2>Pizza</h2>
+
+            <p>Price: ₹250</p>
+
+        </div>
+
+        <div class="card">
+
+            <img src="{% static 'images/burger.png' %}" width="200" height="150">
+
+            <h2>Burger</h2>
+
+            <p>Price: ₹180</p>
+
+        </div>
+
+        <div class="card">
+
+            <img src="{% static 'images/dosa.jpg' %}" width="200" height="150">
+
+            <h2>Dosa</h2>
+
+            <p>Price: ₹120</p>
+
+        </div>
+
+        <div class="card">
+
+            <img src="{% static 'images/pizza.jpg' %}" width="200" height="150">
+
+            <h2>Pasta</h2>
+
+            <p>Price: ₹240</p>
+
+        </div>
+
+        <div class="card">
+
+            <img src="{% static 'images/burger.png' %}" width="200" height="150">
+
+            <h2>French Fries</h2>
+
+            <p>Price: ₹150</p>
+
+        </div>
+
+        <div class="card">
+
+            <img src="{% static 'images/dosa.jpg' %}" width="200" height="150">
+
+            <h2>Masala Dosa</h2>
+
+            <p>Price: ₹140</p>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Created by Mirdu</p>
+    </footer>
+
+</body>
+
+</html>

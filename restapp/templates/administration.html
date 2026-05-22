@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Administration - Foodora Palace</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+    <nav>
+        <h2>Foodora Palace</h2>
+
+        <a href="/">Home</a>
+        <a href="/menu/">Menu</a>
+        <a href="/administration/">Administration</a>
+        <a href="/contact/">Contact</a>
+    </nav>
+
+    <h1 class="title">Administration Team</h1>
+
+    <div class="admin-container">
+
+        <div class="card">
+
+            <img src="{% static 'images/chef.jpg' %}" width="200" height="150">
+
+            <h2>Head Chef</h2>
+
+            <p>Expert in preparing delicious dishes.</p>
+
+        </div>
+
+        <div class="card">
+
+            <img src="{% static 'images/chef.jpg' %}" width="200" height="150">
+
+            <h2>Restaurant Manager</h2>
+
+            <p>Handles customer service and restaurant operations.</p>
+
+        </div>
+
+        <div class="card">
+
+            <img src="{% static 'images/chef.jpg' %}" width="200" height="150">
+
+            <h2>Service Team</h2>
+
+            <p>Provides fast and friendly service.</p>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Created by Mirdu</p>
+    </footer>
+
+</body>
+
+</html>
